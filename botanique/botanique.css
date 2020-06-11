@@ -1,0 +1,332 @@
+/*********************************************************************************/
+/* La base                                                                       */
+/*********************************************************************************/
+    html, body
+    {
+        height: 100%;
+    }
+
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        background: #4C5748;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12pt;
+        font-weight: 300;
+        color: #000000;
+    }
+
+
+    h1, h2, h3
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    p, ol, ul
+    {
+        margin-top: 0;
+    }
+
+    ol, ul
+    {
+        padding: 0;
+        list-style: none;
+    }
+
+    p
+    {
+        line-height: 180%;
+    }
+
+    strong
+    {
+    }
+
+    a
+    {
+        color: #151515;
+    }
+
+    a:hover
+    {
+        text-decoration: none;
+    }
+
+    .container
+    {
+        overflow: hidden;
+        margin: 0em auto;
+        width: 1000px;
+    }
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+    #header-wrapper
+    {
+        overflow: hidden;
+        background: url(images/pic01.jpg) no-repeat center;
+        background-size: 100% auto;
+    }
+
+    #header
+    {
+        overflow: hidden;
+        position: relative;
+        padding: 5em 0em;
+    }
+/*********************************************************************************/
+/* Logo Naturae                                                                          */
+/*********************************************************************************/
+    #logo
+    {
+        position: absolute;
+        top: 2.5em;
+        left: 0;
+    }
+
+    #logo h1
+    {
+        letter-spacing: 0.10em;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    #logo a
+    {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+    #menu
+    {
+        position: absolute;
+        top: 3.5em;
+        right: 0;
+    }
+
+    #menu ul
+    {
+        display: inline-block;
+    }
+
+    #menu li
+    {
+        display: block;
+        float: left;
+        text-align: center;
+    }
+
+    #menu li a, #menu li span
+    {
+        padding: 1em 1.5em;
+        letter-spacing: 0.10em;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.90em;
+        color: #FFF;
+    }
+/*********************************************************************************/
+/* Banner (Banniere)                                                             */
+/*********************************************************************************/
+    #banner
+    {
+        overflow: hidden;
+        padding: 3em 0em 2em 0em;
+        margin-bottom: 5em;
+        border-top: 1px solid rgba(0,0,0,0.08);
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        text-align: center;
+        color: rgba(255,255,255,0.5);
+    }
+
+    #banner a
+    {
+        color: rgba(255,255,255,0.7);
+    }
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+    #page-wrapper
+    {
+        overflow: hidden;
+        padding: 5em 0em;
+        background: #FFF;
+    }
+
+    #page
+    {
+    }
+/*********************************************************************************/
+/* Featured//Titre d'image + titre général                                       */
+/*********************************************************************************/
+    #featured
+    {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #featured .title h2
+    {
+        margin-bottom: 2em;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        text-align: center;
+        font-size: 2.6em;
+        color: #40493C;
+    }
+
+    #featured h2
+    {
+        padding-bottom: 1em;
+        text-transform: uppercase;
+        font-size: 1.8em;
+        font-weight: 300;
+        color: #40493C;
+    }
+
+    #featured img
+    {
+        margin-bottom: 2em;
+    }
+
+    #featured .padding-bottom
+    {
+        margin-bottom: 6em;
+    }
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+    #copyright
+    {
+        overflow: hidden;
+        padding: 5em 0em;
+        border-top: 1px solid rgba(0,0,0,0.08);
+    }
+
+    #copyright p
+    {
+        letter-spacing: 0.20em;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.90em;
+        color: rgba(255,255,255,0.3);
+    }
+
+    #copyright a
+    {
+        text-decoration: none;
+        color: rgba(255,255,255,0.5);
+    }
+/*********************************************************************************/
+/* Style des boutons                                                             */
+/*********************************************************************************/
+    .button
+    {
+        display: inline-block;
+        margin-top: 2em;
+        padding: 1em 2em 1em 2em;
+        background: #40493C;
+        border-radius: 7px;
+        border: 1px solid #373F34;
+        letter-spacing: 0.20em;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 0.90em;
+        color: #FFF;
+    }
+
+    .button:before
+    {
+        display: inline-block;
+        background: #FFC31F;
+        margin-right: 1em;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        color: #272925;
+    }
+/*********************************************************************************/
+/* 4eme colonne                                                                  */
+/*********************************************************************************/
+    .box1,
+    .box2,
+    .box3,
+    .box4
+    {
+        width: 235px;
+    }
+
+    .box1,
+    .box2,
+    .box3
+    {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .box4
+    {
+        float: right;
+    }
+/*********************************************************************************/
+/* 3eme colonne                                                                  */
+/*********************************************************************************/
+    .boxA,
+    .boxB,
+    .boxC
+    {
+        width: 320px;
+    }
+
+    .boxA,
+    .boxB
+    {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .boxC
+    {
+        float: right;
+    }
+/*********************************************************************************/
+/* 2eme colonne                                                                  */
+/*********************************************************************************/
+    .tbox1,
+    .tbox2
+    {
+        width: 490px;
+    }
+
+    .tbox1
+    {
+        float: left;
+    }
+
+    .tbox2
+    {
+        float: right;
+    }
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+    #header-wrapper
+    {
+        overflow: hidden;
+        background: url(images/pic01.jpg) no-repeat center;
+        background-size: 100% auto;
+    }
+
+    #header
+    {
+        overflow: hidden;
+        position: relative;
+        padding: 5em 0em;
+    }
